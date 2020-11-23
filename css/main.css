@@ -38,10 +38,6 @@ html {
   animation: hand-rotate .5s linear infinite;
 }
 
-.hand-hour {
-  animation: hand-rotate 6s linear infinite;
-}
-
 @keyframes hand-rotate {
 
   0% {
@@ -52,4 +48,8 @@ html {
     transform: rotate(360deg);
   }
 
+}
+
+.hand-hour {
+  animation: hand-rotate .6s linear infinite;
 }
